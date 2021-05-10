@@ -9,7 +9,6 @@
     <a href="https://commandhunt.com"><strong>https://commandhunt.com</strong></a>
   </p>
 </p>
-
 <br>
 
 # CommandHunt
