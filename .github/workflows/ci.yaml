@@ -51,10 +51,9 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Build with Maven
-        run: mvn $MAVEN_CLI_OPTS verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar --file pom.xml
+        run: mvn $MAVEN_CLI_OPTS verify --file pom.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
       - name: Publish Unit Test Results # shown on actions or pull requests views
         uses: EnricoMi/publish-unit-test-result-action@v1
