@@ -1,5 +1,6 @@
 # Contributing to CommandHunt
 
+
 First off, thanks for taking the time to contribute! :tada::+1:
 
 The following is a set of guidelines for contributing to CommandHunt, which is hosted in the [CommandHunt Repository](https://github.com/vivekweb2013/commandhunt) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
